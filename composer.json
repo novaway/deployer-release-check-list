@@ -1,0 +1,21 @@
+{
+  "name": "novaway/deployer-release-check-list",
+  "description": "Release check-list for Deployer",
+  "type": "library",
+  "keywords": ["deployer", "release", "check-list"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julien Villetorte",
+      "email": "julien@novaway.fr"
+    }
+  ],
+  "require": {
+    "deployer/deployer": "~6.0"
+  },
+  "autoload": {
+    "files": [
+      "autoload.php"
+    ]
+  }
+}
