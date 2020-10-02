@@ -2,7 +2,7 @@
 
 A simple recipe for [Deployer](https://github.com/deployphp/deployer) to manage a release check-list using Gitlab issues.
 
-The idea is the handle a list of mandatory (and non-blocking) tasks for a release.  
+The idea is to handle a list of mandatory (and non-blocking) tasks for a release.  
 This is made possible using a Gitlab issue (with its tasks system), with specific title and label (customisable). 
  
 ## Installation
@@ -39,7 +39,7 @@ This issue will match all deployments based on a **git tag** beginning with `1.8
 bin/dep deploy prod --tag=1.8.6
 ```
 
-Within the issue, you need a create a (one-level) [task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists):
+Within the issue, you need to create a (one-level) [task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists):
 
 ![Gitlab issue](docs/gitlab_issue.png "Gitlab issue")
 
